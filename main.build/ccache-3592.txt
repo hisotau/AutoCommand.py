@@ -1,0 +1,1047 @@
+[2023-12-05T15:09:37.408179 5432 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.408238 5432 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.408250 5432 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) compression = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) debug = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) disable = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) path = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) recache = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) stats = true
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.408250 5432 ] Config: (default) umask = 
+[2023-12-05T15:09:37.408303 5432 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __constants.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src __constants.c
+[2023-12-05T15:09:37.410028 5432 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.410039 5432 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.410049 5432 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.410053 5432 ] Compiler type: gcc
+[2023-12-05T15:09:37.410250 5432 ] Source file: __constants.c
+[2023-12-05T15:09:37.410256 5432 ] Object file: __constants.o
+[2023-12-05T15:09:37.410333 5432 ] Trying direct lookup
+[2023-12-05T15:09:37.410397 5432 ] Manifest key: 0befd480h0ifejlapmhuru2ko102pa4e2
+[2023-12-05T15:09:37.410449 5432 ] Retrieved 0befd480h0ifejlapmhuru2ko102pa4e2 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/efd480h0ifejlapmhuru2ko102pa4e2M)
+[2023-12-05T15:09:37.414418 13800] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.414448 13800] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.414453 13800] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.414453 13800] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) base_dir = 
+[2023-12-05T15:09:37.414453 13800] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.414453 13800] Config: (default) compiler = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.414453 13800] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.414453 13800] Config: (default) compression = true
+[2023-12-05T15:09:37.414453 13800] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.414453 13800] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) debug = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.414453 13800] Config: (default) disable = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) file_clone = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) hard_link = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.414453 13800] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.414453 13800] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.414453 13800] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.414453 13800] Config: (default) max_files = 0
+[2023-12-05T15:09:37.414453 13800] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.414453 13800] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.414453 13800] Config: (default) namespace = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) path = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) read_only = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) recache = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) remote_only = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) reshare = false
+[2023-12-05T15:09:37.414453 13800] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.414453 13800] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.414453 13800] Config: (default) stats = true
+[2023-12-05T15:09:37.414453 13800] Config: (default) stats_log = 
+[2023-12-05T15:09:37.414453 13800] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.414453 13800] Config: (default) umask = 
+[2023-12-05T15:09:37.414497 13800] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __helpers.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src __helpers.c
+[2023-12-05T15:09:37.416277 13800] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.416295 13800] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.416307 13800] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.416314 13800] Compiler type: gcc
+[2023-12-05T15:09:37.416555 13800] Source file: __helpers.c
+[2023-12-05T15:09:37.416564 13800] Object file: __helpers.o
+[2023-12-05T15:09:37.416666 13800] Trying direct lookup
+[2023-12-05T15:09:37.416744 13800] Manifest key: 349f2srt4hj0jiqru8qsig9vgkbd0ge0u
+[2023-12-05T15:09:37.416823 13800] Retrieved 349f2srt4hj0jiqru8qsig9vgkbd0ge0u from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/4/9f2srt4hj0jiqru8qsig9vgkbd0ge0uM)
+[2023-12-05T15:09:37.418808 12900] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.418842 12900] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.418849 12900] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.418849 12900] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) base_dir = 
+[2023-12-05T15:09:37.418849 12900] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.418849 12900] Config: (default) compiler = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.418849 12900] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.418849 12900] Config: (default) compression = true
+[2023-12-05T15:09:37.418849 12900] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.418849 12900] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) debug = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.418849 12900] Config: (default) disable = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) file_clone = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) hard_link = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.418849 12900] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.418849 12900] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.418849 12900] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.418849 12900] Config: (default) max_files = 0
+[2023-12-05T15:09:37.418849 12900] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.418849 12900] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.418849 12900] Config: (default) namespace = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) path = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) read_only = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) recache = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) remote_only = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) reshare = false
+[2023-12-05T15:09:37.418849 12900] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.418849 12900] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.418849 12900] Config: (default) stats = true
+[2023-12-05T15:09:37.418849 12900] Config: (default) stats_log = 
+[2023-12-05T15:09:37.418849 12900] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.418849 12900] Config: (default) umask = 
+[2023-12-05T15:09:37.418939 12900] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __loader.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src __loader.c
+[2023-12-05T15:09:37.420699 12900] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.420711 12900] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.420720 12900] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.420754 12900] Compiler type: gcc
+[2023-12-05T15:09:37.420944 12900] Source file: __loader.c
+[2023-12-05T15:09:37.420950 12900] Object file: __loader.o
+[2023-12-05T15:09:37.421021 12900] Trying direct lookup
+[2023-12-05T15:09:37.421092 12900] Manifest key: 1abfdp0d9uka49m9fng2abls8aefn75i0
+[2023-12-05T15:09:37.421157 12900] Retrieved 1abfdp0d9uka49m9fng2abls8aefn75i0 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/a/bfdp0d9uka49m9fng2abls8aefn75i0M)
+[2023-12-05T15:09:37.423273 8824 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.423305 8824 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.423313 8824 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) compression = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) debug = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) disable = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) path = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) recache = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) stats = true
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.423313 8824 ] Config: (default) umask = 
+[2023-12-05T15:09:37.423372 8824 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.__main__.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.__main__.c
+[2023-12-05T15:09:37.425528 8824 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.425542 8824 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.425551 8824 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.425555 8824 ] Compiler type: gcc
+[2023-12-05T15:09:37.425740 8824 ] Source file: module.__main__.c
+[2023-12-05T15:09:37.425746 8824 ] Object file: module.__main__.o
+[2023-12-05T15:09:37.425816 8824 ] Trying direct lookup
+[2023-12-05T15:09:37.425981 8824 ] Manifest key: ce5757cgjrfe2bv5d4gfvc2464nse6ces
+[2023-12-05T15:09:37.426031 8824 ] Retrieved ce5757cgjrfe2bv5d4gfvc2464nse6ces from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/e/5757cgjrfe2bv5d4gfvc2464nse6cesM)
+[2023-12-05T15:09:37.427510 12900] Got result key from manifest
+[2023-12-05T15:09:37.427526 12900] Result key: 1fccs76v383bj1o5f70hgigj4eoas0pe6
+[2023-12-05T15:09:37.427577 12900] Retrieved 1fccs76v383bj1o5f70hgigj4eoas0pe6 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/ccs76v383bj1o5f70hgigj4eoas0pe6R)
+[2023-12-05T15:09:37.427679 12900] Reading embedded entry #0 .o (13399 bytes)
+[2023-12-05T15:09:37.427685 12900] Writing to __loader.o
+[2023-12-05T15:09:37.427868 12900] Succeeded getting cached result
+[2023-12-05T15:09:37.427896 12900] Result: direct_cache_hit
+[2023-12-05T15:09:37.427902 12900] Result: local_storage_hit
+[2023-12-05T15:09:37.427907 12900] Result: local_storage_read_hit
+[2023-12-05T15:09:37.427913 12900] Result: local_storage_read_hit
+[2023-12-05T15:09:37.427925 12900] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2023-12-05T15:09:37.428417 12900] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2023-12-05T15:09:37.428697 12900] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2023-12-05T15:09:37.428735 12900] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2023-12-05T15:09:37.431485 11352] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.431512 11352] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.431517 11352] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.431517 11352] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) base_dir = 
+[2023-12-05T15:09:37.431517 11352] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.431517 11352] Config: (default) compiler = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.431517 11352] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.431517 11352] Config: (default) compression = true
+[2023-12-05T15:09:37.431517 11352] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.431517 11352] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) debug = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.431517 11352] Config: (default) disable = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) file_clone = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) hard_link = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.431517 11352] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.431517 11352] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.431517 11352] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.431517 11352] Config: (default) max_files = 0
+[2023-12-05T15:09:37.431517 11352] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.431517 11352] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.431517 11352] Config: (default) namespace = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) path = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) read_only = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) recache = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) remote_only = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) reshare = false
+[2023-12-05T15:09:37.431517 11352] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.431517 11352] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.431517 11352] Config: (default) stats = true
+[2023-12-05T15:09:37.431517 11352] Config: (default) stats_log = 
+[2023-12-05T15:09:37.431517 11352] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.431517 11352] Config: (default) umask = 
+[2023-12-05T15:09:37.431559 11352] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module._virtualenv.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module._virtualenv.c
+[2023-12-05T15:09:37.433146 11352] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.433185 11352] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.433197 11352] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.433202 11352] Compiler type: gcc
+[2023-12-05T15:09:37.433374 11352] Source file: module._virtualenv.c
+[2023-12-05T15:09:37.433379 11352] Object file: module._virtualenv.o
+[2023-12-05T15:09:37.433447 11352] Trying direct lookup
+[2023-12-05T15:09:37.433677 11352] Manifest key: c7839ad30820bp239qj9cc7715oa4ovu8
+[2023-12-05T15:09:37.433726 11352] Retrieved c7839ad30820bp239qj9cc7715oa4ovu8 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/7/839ad30820bp239qj9cc7715oa4ovu8M)
+[2023-12-05T15:09:37.434026 12560] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.434057 12560] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.434064 12560] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.434064 12560] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) base_dir = 
+[2023-12-05T15:09:37.434064 12560] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.434064 12560] Config: (default) compiler = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.434064 12560] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.434064 12560] Config: (default) compression = true
+[2023-12-05T15:09:37.434064 12560] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.434064 12560] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) debug = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.434064 12560] Config: (default) disable = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) file_clone = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) hard_link = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.434064 12560] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.434064 12560] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.434064 12560] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.434064 12560] Config: (default) max_files = 0
+[2023-12-05T15:09:37.434064 12560] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.434064 12560] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.434064 12560] Config: (default) namespace = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) path = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) read_only = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) recache = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) remote_only = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) reshare = false
+[2023-12-05T15:09:37.434064 12560] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.434064 12560] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.434064 12560] Config: (default) stats = true
+[2023-12-05T15:09:37.434064 12560] Config: (default) stats_log = 
+[2023-12-05T15:09:37.434064 12560] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.434064 12560] Config: (default) umask = 
+[2023-12-05T15:09:37.434126 12560] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._canonical_names.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._canonical_names.c
+[2023-12-05T15:09:37.434287 5432 ] Got result key from manifest
+[2023-12-05T15:09:37.434306 5432 ] Result key: 5a39s5fv6lj7j5o0staf4lnp3s761ou06
+[2023-12-05T15:09:37.434358 5432 ] Retrieved 5a39s5fv6lj7j5o0staf4lnp3s761ou06 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/a/39s5fv6lj7j5o0staf4lnp3s761ou06R)
+[2023-12-05T15:09:37.434460 5432 ] Reading embedded entry #0 .o (16751 bytes)
+[2023-12-05T15:09:37.434466 5432 ] Writing to __constants.o
+[2023-12-05T15:09:37.434636 5432 ] Succeeded getting cached result
+[2023-12-05T15:09:37.434669 5432 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.434675 5432 ] Result: local_storage_hit
+[2023-12-05T15:09:37.434681 5432 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.434686 5432 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.434698 5432 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-12-05T15:09:37.435185 5432 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-12-05T15:09:37.435526 5432 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-12-05T15:09:37.435568 5432 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-12-05T15:09:37.436074 12560] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.436084 12560] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.436093 12560] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.436097 12560] Compiler type: gcc
+[2023-12-05T15:09:37.436301 12560] Source file: module.keyboard._canonical_names.c
+[2023-12-05T15:09:37.436309 12560] Object file: module.keyboard._canonical_names.o
+[2023-12-05T15:09:37.436399 12560] Trying direct lookup
+[2023-12-05T15:09:37.436610 12560] Manifest key: 9f5b50lsl9c3p6ubu89k6gb5kao22m5qi
+[2023-12-05T15:09:37.436697 12560] Retrieved 9f5b50lsl9c3p6ubu89k6gb5kao22m5qi from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/5b50lsl9c3p6ubu89k6gb5kao22m5qiM)
+[2023-12-05T15:09:37.444438 13800] Got result key from manifest
+[2023-12-05T15:09:37.444469 13800] Result key: 5e957pgvjv179lgk3j645hn2pjetiik48
+[2023-12-05T15:09:37.444550 13800] Retrieved 5e957pgvjv179lgk3j645hn2pjetiik48 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/e/957pgvjv179lgk3j645hn2pjetiik48R)
+[2023-12-05T15:09:37.444767 13800] Reading embedded entry #0 .o (2651 bytes)
+[2023-12-05T15:09:37.444783 13800] Writing to __helpers.o
+[2023-12-05T15:09:37.445007 13800] Succeeded getting cached result
+[2023-12-05T15:09:37.445031 13800] Result: direct_cache_hit
+[2023-12-05T15:09:37.445035 13800] Result: local_storage_hit
+[2023-12-05T15:09:37.445038 13800] Result: local_storage_read_hit
+[2023-12-05T15:09:37.445042 13800] Result: local_storage_read_hit
+[2023-12-05T15:09:37.445052 13800] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-12-05T15:09:37.445426 13800] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-12-05T15:09:37.445654 13800] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-12-05T15:09:37.445685 13800] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-12-05T15:09:37.449182 10104] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.449212 10104] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.449218 10104] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.449218 10104] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) base_dir = 
+[2023-12-05T15:09:37.449218 10104] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.449218 10104] Config: (default) compiler = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.449218 10104] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.449218 10104] Config: (default) compression = true
+[2023-12-05T15:09:37.449218 10104] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.449218 10104] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) debug = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.449218 10104] Config: (default) disable = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) file_clone = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) hard_link = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.449218 10104] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.449218 10104] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.449218 10104] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.449218 10104] Config: (default) max_files = 0
+[2023-12-05T15:09:37.449218 10104] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.449218 10104] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.449218 10104] Config: (default) namespace = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) path = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) read_only = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) recache = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) remote_only = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) reshare = false
+[2023-12-05T15:09:37.449218 10104] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.449218 10104] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.449218 10104] Config: (default) stats = true
+[2023-12-05T15:09:37.449218 10104] Config: (default) stats_log = 
+[2023-12-05T15:09:37.449218 10104] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.449218 10104] Config: (default) umask = 
+[2023-12-05T15:09:37.449261 10104] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._darwinkeyboard.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._darwinkeyboard.c
+[2023-12-05T15:09:37.451139 10104] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.451152 10104] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.451161 10104] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.451165 10104] Compiler type: gcc
+[2023-12-05T15:09:37.451340 10104] Source file: module.keyboard._darwinkeyboard.c
+[2023-12-05T15:09:37.451345 10104] Object file: module.keyboard._darwinkeyboard.o
+[2023-12-05T15:09:37.451413 10104] Trying direct lookup
+[2023-12-05T15:09:37.451961 8824 ] Got result key from manifest
+[2023-12-05T15:09:37.451979 8824 ] Result key: a7792e8g1kb96ot62bnf323r15uh7am58
+[2023-12-05T15:09:37.452090 8824 ] Retrieved a7792e8g1kb96ot62bnf323r15uh7am58 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/792e8g1kb96ot62bnf323r15uh7am58R)
+[2023-12-05T15:09:37.452270 10104] Manifest key: 0a14gms19tec5urbm7gv2ngrpi0efrc[2023-12-05T15:09:37.452278 8824 ] Writing to module.__main__.o
+[2023-12-05T15:09:37.452351 10104] Retrieved 0a14gms19tec5urbm7gv2ngrpi0efrcm8 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/a/14gms19tec5urbm7gv2ngrpi0efrcm8M)
+[2023-12-05T15:09:37.452514 8824 ] Succeeded getting cached result
+[2023-12-05T15:09:37.452538 8824 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.452542 8824 ] Result: local_storage_hit
+[2023-12-05T15:09:37.452546 8824 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.452550 8824 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.452559 8824 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.452776 8824 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.453172 8824 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.453209 8824 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.457402 6520 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.457439 6520 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.457446 6520 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) compression = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) debug = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) disable = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) path = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) recache = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) stats = true
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.457446 6520 ] Config: (default) umask = 
+[2023-12-05T15:09:37.457506 6520 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._generic.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._generic.c
+[2023-12-05T15:09:37.459546 6520 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.459560 6520 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.459572 6520 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.459578 6520 ] Compiler type: gcc
+[2023-12-05T15:09:37.459797 6520 ] Source file: module.keyboard._generic.c
+[2023-12-05T15:09:37.459805 6520 ] Object file: module.keyboard._generic.o
+[2023-12-05T15:09:37.459878 6520 ] Trying direct lookup
+[2023-12-05T15:09:37.460084 6520 ] Manifest key: b42496bag3k9nsv430jqga7pbr74g627g
+[2023-12-05T15:09:37.460136 6520 ] Retrieved b42496bag3k9nsv430jqga7pbr74g627g from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/4/2496bag3k9nsv430jqga7pbr74g627gM)
+[2023-12-05T15:09:37.460334 7200 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.460360 7200 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.460366 7200 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) compression = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) debug = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) disable = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) path = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) recache = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) stats = true
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.460366 7200 ] Config: (default) umask = 
+[2023-12-05T15:09:37.460407 7200 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._keyboard_event.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._keyboard_event.c
+[2023-12-05T15:09:37.460471 11352] Got result key from manifest
+[2023-12-05T15:09:37.460491 11352] Result key: e1430dem3g65d1mc0vc4grbn1rhcphd1o
+[2023-12-05T15:09:37.460597 11352] Retrieved e1430dem3g65d1mc0vc4grbn1rhcphd1o from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/430dem3g65d1mc0vc4grbn1rhcphd1oR)
+[2023-12-05T15:09:37.460800 11352] Reading embedded entry #0 .o (165512 bytes)
+[2023-12-05T15:09:37.460809 11352] Writing to module._virtualenv.o
+[2023-12-05T15:09:37.461019 11352] Succeeded getting cached result
+[2023-12-05T15:09:37.461046 11352] Result: direct_cache_hit
+[2023-12-05T15:09:37.461053 11352] Result: local_storage_hit
+[2023-12-05T15:09:37.461058 11352] Result: local_storage_read_hit
+[2023-12-05T15:09:37.461063 11352] Result: local_storage_read_hit
+[2023-12-05T15:09:37.461076 11352] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/stats.lock
+[2023-12-05T15:09:37.461511 11352] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/stats.lock
+[2023-12-05T15:09:37.461824 11352] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/stats.lock
+[2023-12-05T15:09:37.461864 11352] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/stats.lock
+[2023-12-05T15:09:37.462461 7200 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.462473 7200 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.462482 7200 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.462486 7200 ] Compiler type: gcc
+[2023-12-05T15:09:37.462730 7200 ] Source file: module.keyboard._keyboard_event.c
+[2023-12-05T15:09:37.462738 7200 ] Object file: module.keyboard._keyboard_event.o
+[2023-12-05T15:09:37.462836 7200 ] Trying direct lookup
+[2023-12-05T15:09:37.463111 7200 ] Manifest key: 56eev60o8i7spimj32qfejkavb8j5ldnu
+[2023-12-05T15:09:37.463186 7200 ] Retrieved 56eev60o8i7spimj32qfejkavb8j5ldnu from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/eev60o8i7spimj32qfejkavb8j5ldnuM)
+[2023-12-05T15:09:37.464075 12560] Got result key from manifest
+[2023-12-05T15:09:37.464096 12560] Result key: 813abp5m14uffpsqj5ed937b0j99t4dfk
+[2023-12-05T15:09:37.464184 12560] Retrieved 813abp5m14uffpsqj5ed937b0j99t4dfk from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/1/3abp5m14uffpsqj5ed937b0j99t4dfkR)
+[2023-12-05T15:09:37.464353 12560] Reading embedded entry #0 .o (122384 bytes)
+[2023-12-05T15:09:37.464361 12560] Writing to module.keyboard._canonical_names.o
+[2023-12-05T15:09:37.464575 12560] Succeeded getting cached result
+[2023-12-05T15:09:37.464608 12560] Result: direct_cache_hit
+[2023-12-05T15:09:37.464612 12560] Result: local_storage_hit
+[2023-12-05T15:09:37.464617 12560] Result: local_storage_read_hit
+[2023-12-05T15:09:37.464621 12560] Result: local_storage_read_hit
+[2023-12-05T15:09:37.464630 12560] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-12-05T15:09:37.465106 12560] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-12-05T15:09:37.465424 12560] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-12-05T15:09:37.465466 12560] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-12-05T15:09:37.470240 13188] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.470267 13188] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.470272 13188] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.470272 13188] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) base_dir = 
+[2023-12-05T15:09:37.470272 13188] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.470272 13188] Config: (default) compiler = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.470272 13188] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.470272 13188] Config: (default) compression = true
+[2023-12-05T15:09:37.470272 13188] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.470272 13188] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) debug = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.470272 13188] Config: (default) disable = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) file_clone = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) hard_link = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.470272 13188] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.470272 13188] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.470272 13188] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.470272 13188] Config: (default) max_files = 0
+[2023-12-05T15:09:37.470272 13188] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.470272 13188] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.470272 13188] Config: (default) namespace = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) path = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) read_only = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) recache = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) remote_only = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) reshare = false
+[2023-12-05T15:09:37.470272 13188] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.470272 13188] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.470272 13188] Config: (default) stats = true
+[2023-12-05T15:09:37.470272 13188] Config: (default) stats_log = 
+[2023-12-05T15:09:37.470272 13188] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.470272 13188] Config: (default) umask = 
+[2023-12-05T15:09:37.470314 13188] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._nixcommon.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._nixcommon.c
+[2023-12-05T15:09:37.472167 13188] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.472179 13188] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.472188 13188] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.472192 13188] Compiler type: gcc
+[2023-12-05T15:09:37.472382 13188] Source file: module.keyboard._nixcommon.c
+[2023-12-05T15:09:37.472387 13188] Object file: module.keyboard._nixcommon.o
+[2023-12-05T15:09:37.472454 13188] Trying direct lookup
+[2023-12-05T15:09:37.473299 13188] Manifest key: 841bkahsba4hgf29a13id9jcnfvsft6bg
+[2023-12-05T15:09:37.473379 13188] Retrieved 841bkahsba4hgf29a13id9jcnfvsft6bg from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/1bkahsba4hgf29a13id9jcnfvsft6bgM)
+[2023-12-05T15:09:37.480089 5124 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.480117 5124 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.480123 5124 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) compression = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) debug = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) disable = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) path = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) recache = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) stats = true
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.480123 5124 ] Config: (default) umask = 
+[2023-12-05T15:09:37.480166 5124 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._nixkeyboard.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._nixkeyboard.c
+[2023-12-05T15:09:37.480219 10104] Result key: 3156cudfauvlslboahbnr4pqqqi99ml2g
+[2023-12-05T15:09:37.480435 10104] Retrieved 3156cudfauvlslboahbnr4pqqqi99ml2g from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/1/56cudfauvlslboahbnr4pqqqi99ml2gR)
+[2023-12-05T15:09:37.480850 10104] Reading embedded entry #0 .o (501237 bytes)
+[2023-12-05T15:09:37.480887 10104] Writing to module.keyboard._darwinkeyboard.o
+[2023-12-05T15:09:37.481158 10104] Succeeded getting cached result
+[2023-12-05T15:09:37.481258 10104] Result: direct_cache_hit
+[2023-12-05T15:09:37.481263 10104] Result: local_storage_hit
+[2023-12-05T15:09:37.481267 10104] Result: local_storage_read_hit
+[2023-12-05T15:09:37.481270 10104] Result: local_storage_read_hit
+[2023-12-05T15:09:37.481279 10104] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.481491 10104] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.481767 10104] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.481796 10104] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.481864 5124 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.481876 5124 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.481903 5124 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.481911 5124 ] Compiler type: gcc
+[2023-12-05T15:09:37.482104 5124 ] Source file: module.keyboard._nixkeyboard.c
+[2023-12-05T15:09:37.482110 5124 ] Object file: module.keyboard._nixkeyboard.o
+[2023-12-05T15:09:37.482183 5124 ] Trying direct lookup
+[2023-12-05T15:09:37.482730 5124 ] Manifest key: b3795bk108pd6ilrjproarge90nrk0i1o
+[2023-12-05T15:09:37.482787 5124 ] Retrieved b3795bk108pd6ilrjproarge90nrk0i1o from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/3/795bk108pd6ilrjproarge90nrk0i1oM)
+[2023-12-05T15:09:37.485653 6520 ] Got result key from manifest
+[2023-12-05T15:09:37.485675 6520 ] Result key: dc41bid92ul5oe7tbumthg6dmn9hqaq0i
+[2023-12-05T15:09:37.485824 6520 ] Retrieved dc41bid92ul5oe7tbumthg6dmn9hqaq0i from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/41bid92ul5oe7tbumthg6dmn9hqaq0iR)
+[2023-12-05T15:09:37.486051 6520 ] Reading embedded entry #0 .o (166086 bytes)
+[2023-12-05T15:09:37.486061 6520 ] Writing to module.keyboard._generic.o
+[2023-12-05T15:09:37.486306 6520 ] Succeeded getting cached result
+[2023-12-05T15:09:37.486344 6520 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.486348 6520 ] Result: local_storage_hit
+[2023-12-05T15:09:37.486352 6520 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.486356 6520 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.486362 6520 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.486620 6520 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.486900 6520 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.486929 6520 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.489867 7200 ] Got result key from manifest
+[2023-12-05T15:09:37.489889 7200 ] Result key: 8bdbl95sb1thh0vqhncb7003brhhrvukm
+[2023-12-05T15:09:37.490000 7200 ] Retrieved 8bdbl95sb1thh0vqhncb7003brhhrvukm from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/b/dbl95sb1thh0vqhncb7003brhhrvukmR)
+[2023-12-05T15:09:37.490204 7200 ] Reading embedded entry #0 .o (158425 bytes)
+[2023-12-05T15:09:37.490211 7200 ] Writing to module.keyboard._keyboard_event.o
+[2023-12-05T15:09:37.490432 7200 ] Succeeded getting cached result
+[2023-12-05T15:09:37.490473 7200 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.490479 7200 ] Result: local_storage_hit
+[2023-12-05T15:09:37.490485 7200 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.490490 7200 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.490500 7200 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/stats.lock
+[2023-12-05T15:09:37.490994 7200 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/stats.lock
+[2023-12-05T15:09:37.491247 7200 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/stats.lock
+[2023-12-05T15:09:37.491280 7200 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/stats.lock
+[2023-12-05T15:09:37.492477 5128 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.492501 5128 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.492506 5128 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) compression = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) debug = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) disable = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) path = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) recache = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) stats = true
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.492506 5128 ] Config: (default) umask = 
+[2023-12-05T15:09:37.492548 5128 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._winkeyboard.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard._winkeyboard.c
+[2023-12-05T15:09:37.494240 5128 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.494252 5128 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.494260 5128 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.494265 5128 ] Compiler type: gcc
+[2023-12-05T15:09:37.494443 5128 ] Source file: module.keyboard._winkeyboard.c
+[2023-12-05T15:09:37.494449 5128 ] Object file: module.keyboard._winkeyboard.o
+[2023-12-05T15:09:37.494524 5128 ] Trying direct lookup
+[2023-12-05T15:09:37.495523 5128 ] Manifest key: 9c14o3n1q0hqpnbtl6qsfafvhdbf9peum
+[2023-12-05T15:09:37.495578 5128 ] Retrieved 9c14o3n1q0hqpnbtl6qsfafvhdbf9peum from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/14o3n1q0hqpnbtl6qsfafvhdbf9peumM)
+[2023-12-05T15:09:37.499846 13188] Got result key from manifest
+[2023-12-05T15:09:37.499868 13188] Result key: cf4a4k73ebn7dtppgetd2sfpjn9b7a144
+[2023-12-05T15:09:37.500014 13188] Retrieved cf4a4k73ebn7dtppgetd2sfpjn9b7a144 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/4a4k73ebn7dtppgetd2sfpjn9b7a144R)
+[2023-12-05T15:09:37.500290 13188] Reading embedded entry #0 .o (330158 bytes)
+[2023-12-05T15:09:37.500298 13188] Writing to module.keyboard._nixcommon.o
+[2023-12-05T15:09:37.500530 13188] Succeeded getting cached result
+[2023-12-05T15:09:37.500586 13188] Result: direct_cache_hit
+[2023-12-05T15:09:37.500590 13188] Result: local_storage_hit
+[2023-12-05T15:09:37.500594 13188] Result: local_storage_read_hit
+[2023-12-05T15:09:37.500598 13188] Result: local_storage_read_hit
+[2023-12-05T15:09:37.500605 13188] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/stats.lock
+[2023-12-05T15:09:37.500854 13188] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/stats.lock
+[2023-12-05T15:09:37.501553 13188] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/stats.lock
+[2023-12-05T15:09:37.501599 13188] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/stats.lock
+[2023-12-05T15:09:37.511152 5124 ] Got result key from manifest
+[2023-12-05T15:09:37.511180 5124 ] Result key: fc17n00ou6dhvs0dgt1kabbk7mbm954h8
+[2023-12-05T15:09:37.511370 5124 ] Retrieved fc17n00ou6dhvs0dgt1kabbk7mbm954h8 from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/17n00ou6dhvs0dgt1kabbk7mbm954h8R)
+[2023-12-05T15:09:37.511649 5124 ] Reading embedded entry #0 .o (333366 bytes)
+[2023-12-05T15:09:37.511659 5124 ] Writing to module.keyboard._nixkeyboard.o
+[2023-12-05T15:09:37.511951 5124 ] Succeeded getting cached result
+[2023-12-05T15:09:37.512029 5124 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.512035 5124 ] Result: local_storage_hit
+[2023-12-05T15:09:37.512041 5124 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.512046 5124 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.512056 5124 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/stats.lock
+[2023-12-05T15:09:37.512534 5124 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/stats.lock
+[2023-12-05T15:09:37.512810 5124 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/stats.lock
+[2023-12-05T15:09:37.512850 5124 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/stats.lock
+[2023-12-05T15:09:37.520910 5128 ] Got result key from manifest
+[2023-12-05T15:09:37.520932 5128 ] Result key: 1f98npksepotk9mjgn5699d7f28esa54u
+[2023-12-05T15:09:37.521171 5128 ] Retrieved 1f98npksepotk9mjgn5699d7f28esa54u from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/98npksepotk9mjgn5699d7f28esa54uR)
+[2023-12-05T15:09:37.521618 5128 ] Reading embedded entry #0 .o (555502 bytes)
+[2023-12-05T15:09:37.521627 5128 ] Writing to module.keyboard._winkeyboard.o
+[2023-12-05T15:09:37.521918 5128 ] Succeeded getting cached result
+[2023-12-05T15:09:37.522018 5128 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.522023 5128 ] Result: local_storage_hit
+[2023-12-05T15:09:37.522026 5128 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.522030 5128 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.522037 5128 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-12-05T15:09:37.522394 5128 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-12-05T15:09:37.522658 5128 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-12-05T15:09:37.522692 5128 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-12-05T15:09:37.524299 6800 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.524337 6800 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.524343 6800 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) compression = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) debug = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) disable = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) path = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) recache = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) stats = true
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.524343 6800 ] Config: (default) umask = 
+[2023-12-05T15:09:37.524386 6800 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src module.keyboard.c
+[2023-12-05T15:09:37.526033 6800 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.526046 6800 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.526054 6800 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.526059 6800 ] Compiler type: gcc
+[2023-12-05T15:09:37.526229 6800 ] Source file: module.keyboard.c
+[2023-12-05T15:09:37.526234 6800 ] Object file: module.keyboard.o
+[2023-12-05T15:09:37.526306 6800 ] Trying direct lookup
+[2023-12-05T15:09:37.528499 3748 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.528541 3748 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.528549 3748 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) compression = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) debug = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) disable = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) path = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) recache = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) stats = true
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.528549 3748 ] Config: (default) umask = 
+[2023-12-05T15:09:37.528615 3748 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src static_src\MainProgram.c
+[2023-12-05T15:09:37.528744 6800 ] Manifest key: efb57d10gns6dtmsqo8477pjddj94hrpi
+[2023-12-05T15:09:37.528842 6800 ] Retrieved efb57d10gns6dtmsqo8477pjddj94hrpi from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/b57d10gns6dtmsqo8477pjddj94hrpiM)
+[2023-12-05T15:09:37.530271 3748 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.530282 3748 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.530314 3748 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.530320 3748 ] Compiler type: gcc
+[2023-12-05T15:09:37.530506 3748 ] Source file: static_src\MainProgram.c
+[2023-12-05T15:09:37.530511 3748 ] Object file: static_src\MainProgram.o
+[2023-12-05T15:09:37.530580 3748 ] Trying direct lookup
+[2023-12-05T15:09:37.530696 3748 ] Manifest key: cce5634002fpreobo2og7qq1k9hbikhqc
+[2023-12-05T15:09:37.530748 3748 ] Retrieved cce5634002fpreobo2og7qq1k9hbikhqc from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/c/e5634002fpreobo2og7qq1k9hbikhqcM)
+[2023-12-05T15:09:37.551020 6800 ] Got result key from manifest
+[2023-12-05T15:09:37.551043 6800 ] Result key: a04a710tad5uadr5o6550s2jp2h7o21ka
+[2023-12-05T15:09:37.551470 6800 ] Retrieved a04a710tad5uadr5o6550s2jp2h7o21ka from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/4a710tad5uadr5o6550s2jp2h7o21kaR)
+[2023-12-05T15:09:37.552268 6800 ] Reading embedded entry #0 .o (1210115 bytes)
+[2023-12-05T15:09:37.552279 6800 ] Writing to module.keyboard.o
+[2023-12-05T15:09:37.553296 3748 ] Got result key from manifest
+[2023-12-05T15:09:37.553304 6800 ] Succeeded getting cached result
+[2023-12-05T15:09:37.553326 3748 ] Result key: aa12li512fkca21ngl0pko9d7bqegh5gs
+[2023-12-05T15:09:37.553408 6800 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.553417 6800 ] Result: local_storage_hit
+[2023-12-05T15:09:37.553421 6800 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.553424 6800 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.553434 6800 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-12-05T15:09:37.553470 3748 ] Retrieved aa12li512fkca21ngl0pko9d7bqegh5gs from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/a/12li512fkca21ngl0pko9d7bqegh5gsR)
+[2023-12-05T15:09:37.553637 3748 ] Reading embedded entry #0 .o (47605 bytes)
+[2023-12-05T15:09:37.553643 3748 ] Writing to static_src\MainProgram.o
+[2023-12-05T15:09:37.553787 6800 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-12-05T15:09:37.553811 3748 ] Succeeded getting cached result
+[2023-12-05T15:09:37.553833 3748 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.553837 3748 ] Result: local_storage_hit
+[2023-12-05T15:09:37.553841 3748 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.553844 3748 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.553850 3748 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2023-12-05T15:09:37.554101 6800 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-12-05T15:09:37.554137 6800 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-12-05T15:09:37.554211 3748 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2023-12-05T15:09:37.554409 3748 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2023-12-05T15:09:37.554436 3748 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2023-12-05T15:09:37.616812 9848 ] === CCACHE 4.8.2 STARTED =========================================
+[2023-12-05T15:09:37.616860 9848 ] Configuration file: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2023-12-05T15:09:37.616866 9848 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) absolute_paths_in_stderr = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) base_dir = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (environment) cache_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) compiler = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) compiler_check = mtime
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) compiler_type = auto
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) compression = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) compression_level = 0
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) cpp_extension = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) debug = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) debug_dir = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) depend_mode = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) direct_mode = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) disable = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) extra_files_to_hash = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) file_clone = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) hard_link = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) hash_dir = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) ignore_headers_in_manifest = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) ignore_options = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) inode_cache = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) keep_comments_cpp = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (environment) log_file = C:\Users\Hisotau\PycharmProjects\pythonProject\main.build\ccache-3592.txt
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) max_files = 0
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) max_size = 5.0 GiB
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) namespace = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) path = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) pch_external_checksum = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) prefix_command = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) prefix_command_cpp = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) read_only = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) read_only_direct = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) recache = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) remote_only = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) remote_storage = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) reshare = false
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) run_second_cpp = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) stats = true
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) stats_log = 
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) temporary_dir = C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-12-05T15:09:37.616866 9848 ] Config: (default) umask = 
+[2023-12-05T15:09:37.616917 9848 ] Command line: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\Hisotau\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\include -IC:\Users\Hisotau\PycharmProjects\pythonProject\venv\Lib\site-packages\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2023-12-05T15:09:37.618614 9848 ] Hostname: DESKTOP-VQF9AU8
+[2023-12-05T15:09:37.618633 9848 ] Working directory: C:/Users/Hisotau/PycharmProjects/pythonProject/main.build
+[2023-12-05T15:09:37.618647 9848 ] Compiler: C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2023-12-05T15:09:37.618653 9848 ] Compiler type: gcc
+[2023-12-05T15:09:37.618968 9848 ] Source file: static_src\CompiledFunctionType.c
+[2023-12-05T15:09:37.618982 9848 ] Object file: static_src\CompiledFunctionType.o
+[2023-12-05T15:09:37.619103 9848 ] Trying direct lookup
+[2023-12-05T15:09:37.619343 9848 ] Manifest key: cbfbok4e3gmqb820k381c3ab3e0hvlb6k
+[2023-12-05T15:09:37.619417 9848 ] Retrieved cbfbok4e3gmqb820k381c3ab3e0hvlb6k from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/b/fbok4e3gmqb820k381c3ab3e0hvlb6kM)
+[2023-12-05T15:09:37.652850 9848 ] Got result key from manifest
+[2023-12-05T15:09:37.652874 9848 ] Result key: aca42ncapq3c1porr98b7d7h3ia1reuso
+[2023-12-05T15:09:37.653804 9848 ] Retrieved aca42ncapq3c1porr98b7d7h3ia1reuso from local storage (C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/a42ncapq3c1porr98b7d7h3ia1reusoR)
+[2023-12-05T15:09:37.655957 9848 ] Reading embedded entry #0 .o (3611652 bytes)
+[2023-12-05T15:09:37.655973 9848 ] Writing to static_src\CompiledFunctionType.o
+[2023-12-05T15:09:37.656897 9848 ] Succeeded getting cached result
+[2023-12-05T15:09:37.657048 9848 ] Result: direct_cache_hit
+[2023-12-05T15:09:37.657053 9848 ] Result: local_storage_hit
+[2023-12-05T15:09:37.657056 9848 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.657060 9848 ] Result: local_storage_read_hit
+[2023-12-05T15:09:37.657076 9848 ] Acquiring C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.657364 9848 ] Acquired C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.657638 9848 ] Releasing C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2023-12-05T15:09:37.657664 9848 ] Released C:\Users\Hisotau\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
